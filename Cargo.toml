@@ -9,5 +9,6 @@ edition = "2018"
 [dependencies]
 
 dotenvy = "0.15"
-diesel = { version = "2.1.0", features = ["postgres", "chrono"] }
+diesel = { version = "2.1.0", features = ["postgres", "chrono", "uuid"] }
 chrono = "0.4"
+uuid = { version = "1.4.0", features = ["v4"] }
